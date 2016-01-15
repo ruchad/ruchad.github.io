@@ -11,13 +11,29 @@
 <body>
 
 <div class="container">
-  <h3>Rucha Deshmukh</h3>
+  <h2>Rucha Deshmukh</h2>
   <ul class="nav nav-tabs">
-    <li class="active"><a href="#">About Me</a></li>
-    <li><a href="#">Resume</a></li>
-    <li><a href="#">Projects</a></li>
-    <li><a href="#">Android Apps</a></li>
+    <li class="active"><a data-toggle="tab" href="#">About Me</a></li>
+    <li><a data-toggle="tab" href="#">Resume</a></li>
+    <li><a data-toggle="tab" href="#">Projects</a></li>
+    <li><a data-toggle="tab" href="#Android">Android Apps</a></li>
   </ul>
+
+  <div class="tab-content">
+    <div id="Android" class="tab-pane fade">
+    <h3><a href="https://play.google.com/store/apps/details?id=simpleanswers.expirydatekeeper">Expiry Data Keeper</a></h3>
+    <p>This app helps users make a list of items with expiry date.</p>
+    <p>Features:<br>
+      * Expiry list conveniently displays the number of days left/past-due for each item.<br>
+      * Assign categories to tasks.<br>
+      * Items can be removed from the list by long clicking.<br>
+      * The details page for each item, gives additional information about the item.<br>
+      * Option to add reminder for tasks.<br>
+      * Ability to sort tasks by categories or number of days left.<br>
+    </p>
+    </div>
+  </div>
+
 </div>
 
 </body>
